@@ -78,19 +78,19 @@ const Header = ({ handleOrderPopup }) => {
               <div className="hidden md:block">
                 <ul className="flex items-center font-bold gap-6 animatedRight ">
                   <li className="py-4">
-                    <Link href="services" className={`text-decoration-none ${router.pathname==="/services" ? "text-primary" : "" }`} >
+                    <Link href="customerSupport" className={`text-decoration-none ${router.pathname==="/customerSupport" ? "text-blue-400" : "" }`} >
                       Customer Support
                     </Link>
                   </li>
                   
                   <li className="py-4">
-                    <Link href="blogs" className={`text-decoration-none ${router.pathname==="/blogs" ? "text-primary" : "" }`} >
+                    <Link href=" businessSolution" className={`text-decoration-none ${router.pathname==="/businessSolution" ? "text-blue-400" : "" }`} >
                       Business Solution
                     </Link>
                   </li>
                   
                   <li className="py-4">
-                    <Link href="about" className={`text-decoration-none ${router.pathname==="/about" ? "text-primary" : "" }`} >
+                    <Link href="login" className={`text-decoration-none ${router.pathname==="/login" ? "text-blue-400" : "" }`} >
                       Login
                     </Link>
                   </li>
