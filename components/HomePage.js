@@ -5,12 +5,12 @@ import { PiPencilLineFill } from "react-icons/pi";
 
 const HomePage = () => {
   return (
-    <div className="p-4">
+    <div className="px-4 ">
     <div className='rounded-[20px] mt-20 w-full h-screen bg-gradient-to-b from-yellow-400 to-white'>
         <div className="grid grid-cols-1 md:grid-cols-2 h-screen justify-center gap-4">
         <div className='px-16 py-16'>
         <h1 className='font-bold text-6xl'>Services that are simple, dependable, and budget-friendly</h1> 
-        <h3 className='font-bold text-3xl pt-4'>For every household device, mobile device, and piece of furniture.</h3>
+        <h3 className='font-bold text-3xl pt-4'>For every household device and piece of furniture.</h3>
         <div>
         <div className="grid grid-cols-1 md:grid-cols-2 mt-7">
             <div>

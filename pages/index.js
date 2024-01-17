@@ -4,6 +4,7 @@ import HomePage from '@/components/HomePage'
 import Head from 'next/head'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import HomeSolution from '@/components/HomeSolution'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -25,6 +26,7 @@ export default function Home() {
       >
         <Header />
         <HomePage />
+        <HomeSolution />
         <Footer />
       </main>
     </>

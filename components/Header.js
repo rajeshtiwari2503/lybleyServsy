@@ -9,27 +9,18 @@ import { useRouter } from "next/router";
 
 export const NavbarLinks = [
   {
-    name: "Sevices",
-    link: "services",
+    name: "Customer Support",
+    link: "customerSupport",
   },
   
   {
-    name: "About",
-    link: "about",
+    name: "Business Solution",
+    link: "businessSolution",
   },
   {
-    name: "Blogs",
-    link: "blogs",
-  },
-  {
-    name: "Careers",
-    link: "careers",
-  },
-  {
-    name: "Contact us",
-    link: "contact",
-  },
-   
+    name: "Login",
+    link: "login",
+  }   
 ];
 
 const DropdownLinks = [
@@ -64,7 +55,7 @@ const Header = ({ handleOrderPopup }) => {
             </div>
           </div>
         </div> */}
-        <div className="pt-3">
+        <div className="py-1">
           <div className="container mx-auto md:px-14 px-4 py-3 sm:py-0">
             <div className="flex justify-between items-center">
               <div className="flex items-center gap-4 py-1 font-bold text-2xl">
