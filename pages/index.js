@@ -8,6 +8,7 @@ import HomeSolution from '@/components/HomeSolution'
 import BussinessSolution from '@/components/BussinessSolution'
 import Testimonial from '@/components/Testomonial'
 import Subscription from '@/components/Subscription'
+import OurBrand from '@/components/OurBrand'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -32,6 +33,7 @@ export default function Home() {
         <HomeSolution />
         <Subscription />
         <BussinessSolution />
+        <OurBrand />
         <Testimonial />
         {/* <Footer /> */}
       </main>
