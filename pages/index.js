@@ -7,6 +7,7 @@ import Footer from '@/components/Footer'
 import HomeSolution from '@/components/HomeSolution'
 import BussinessSolution from '@/components/BussinessSolution'
 import Testimonial from '@/components/Testomonial'
+import Subscription from '@/components/Subscription'
 import OurBrand from '@/components/OurBrand'
 
 
@@ -30,10 +31,11 @@ export default function Home() {
         <Header />
         <HomePage />
         <HomeSolution />
+        <Subscription />
         <BussinessSolution />
         <OurBrand />
         <Testimonial />
-        <Footer />
+        {/* <Footer /> */}
       </main>
     </>
   )
