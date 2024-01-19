@@ -1,0 +1,35 @@
+import React from 'react'
+import { FaHome, FaCity } from "react-icons/fa";
+
+const CustomerRelation = () => {
+  return (
+    <div className='px-24 py-16'>
+    <h2 className='text-3xl'>Customer Relations</h2>
+    <h3 className='text-2xl'>building lasting relations</h3>
+    <p className='mt-8 w-[800px] text-justify'>Our customer relations solutions empower support across various channels, including call, email, or online. Operated by technically trained personnel, our dedicated multi-lingual call center is supported by robust processes and an in-house CRM system. Guided by the distinctive "You Touch It, You Own It" philosophy, we prioritize customer satisfaction, aiming for near-zero escalations and ensuring the highest level of customer delight.</p>
+    <h3 className='font-bold text-gray-500 text-2xl mt-8'>Our Expertise</h3>
+    <div className="mt-5 grid grid-cols-1 md:grid-cols-3 justify-between gap-5 w-[800px]">
+        <div className="flex flex-col">
+        <div className='flex items-center space-x-2'>
+            <FaHome className='text-3xl' /> <div className='text-4xl'>5<sup>+</sup></div>
+        </div>
+        <h2 className='text-[20px]'>Call centers</h2>
+        </div>
+        <div className="flex flex-col">
+        <div className='flex items-center space-x-2'>
+            <FaHome className='text-3xl' /> <div className='text-4xl'>400<sup>+</sup></div>
+        </div>
+        <h2 className='text-[20px]'>Executives</h2>
+        </div>
+        <div className="flex flex-col">
+        <div className='flex items-center space-x-2'>
+            <FaHome className='text-3xl' /> <div className='text-4xl'>11,000<sup>+</sup></div>
+        </div>
+        <h2 className='text-[20px]'>Calls per day</h2>
+        </div>
+    </div>
+</div>
+  )
+}
+
+export default CustomerRelation
