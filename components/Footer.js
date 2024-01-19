@@ -112,7 +112,7 @@ const Footer = () => {
                   </h1>
                   <ul className="grid grid-cols-1 md:grid-cols-2 justify-between gap-3">
                     { serviceCenter.map((link, index) => (
-                      <li className="cursor-pointer hover:translate-x-1 duration-300 hover:text-blue-400 space-x-1 text-gray-700 dark:text-gray-200" key={index}>
+                      <li className="cursor-pointer hover:translate-x-1 duration-300 hover:text-blue-400 space-x-1 text-white" key={index}>
                         
                           <span>&#11162;</span>
                           <span>{link.title}</span>
@@ -127,9 +127,9 @@ const Footer = () => {
                 <h1 className="text-xl font-bold text-justify sm:text-left mb-3">
                   Important Links
                 </h1>
-                <ul className="flex flex-col gap-3">
+                <ul className="flex flex-col gap-3 ">
                   {FooterLinks.map((link, index) => (
-                    <li className="cursor-pointer hover:translate-x-1 duration-300 hover:text-blue-400 space-x-1 text-gray-700 dark:text-gray-200" key={index}>
+                    <li className="text-white cursor-pointer hover:translate-x-1 duration-300 hover:text-blue-400 space-x-1" key={index}>
                       <Link
                         href={link.link}
                         onClick={() => window.scrollTo(0, 0)}
