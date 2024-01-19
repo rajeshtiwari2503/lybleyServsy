@@ -1,9 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import {
-  FaFacebook,
-  FaInstagram,
-  FaLinkedin,
+  
   FaLocationArrow,
   FaMobileAlt, FaEnvelope
 } from "react-icons/fa";
@@ -15,10 +13,7 @@ const FooterLinks = [
     link: "services",
   },
    
-  {
-    title: "About",
-    link: "about",
-  },
+  
 
   {
     title: "Privacy Policy",
@@ -115,7 +110,7 @@ const Footer = () => {
                       <li className="cursor-pointer hover:translate-x-1 duration-300 hover:text-blue-400 space-x-1 text-gray-700 dark:text-gray-200" key={index}>
                         
                           <span>&#11162;</span>
-                          <span>{link.title}</span>
+                          <span className="ps-1">{link.title}</span>
                          
                       </li>
                     ))}
@@ -135,7 +130,7 @@ const Footer = () => {
                         onClick={() => window.scrollTo(0, 0)}
                       >
                         <span>&#11162;</span>
-                        <span>{link.title}</span>
+                        <span className="ms-2">{link.title}</span>
                       </Link>
                     </li>
                   ))}
