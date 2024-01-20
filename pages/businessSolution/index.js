@@ -1,7 +1,10 @@
 import ComprehensiveService from '@/components/ComprehensiveService';
 import CustomerRelation from '@/components/CustomerRelation';
+import HighlyTrainedPeople from '@/components/HighlyTrainedPeople';
 import OurBrand from '@/components/OurBrand'
+import PanIndiaService from '@/components/PanIndiaService';
 import SparepartManagement from '@/components/SparepartManagement';
+import TechnologyAndSystems from '@/components/TechnologyAndSystems';
 import ValueAddedServices from '@/components/ValueAddedServices';
 import React from 'react'
 import { FaHome, FaCity } from "react-icons/fa";
@@ -56,6 +59,9 @@ const businessSolution = () => {
                 <ValueAddedServices />
                  <SparepartManagement />
                  <CustomerRelation />
+                 <PanIndiaService />
+                 <TechnologyAndSystems />
+                 <HighlyTrainedPeople />
         </div>
     )
 }

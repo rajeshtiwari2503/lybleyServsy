@@ -1,6 +1,46 @@
 import React from 'react'
 
 const Query = () => {
+
+  const [formData, setFormData] = useState({
+    name: '',
+    contact: '',
+    email: '',
+    message: ''
+});
+
+const handleInputChange = (event) => {
+    const { name, value } = event.target;
+    setFormData({
+        ...formData,
+        [name]: value
+    });
+};
+
+const handleSubmit = async (event) => {
+    event.preventDefault();
+
+    try {
+        const response = await fetch('https://lybleybackend-production.up.railway.app/createContact', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(formData)
+        });
+
+        if (response.ok) {
+            console.log('Message sent successfully');
+            // Show success message or perform other actions upon successful submission
+        } else {
+            console.error('Failed to send message');
+            // Handle error scenarios
+        }
+    } catch (error) {
+        console.error('Error sending message:', error);
+        // Handle error scenarios
+    }
+};
   return (
     <div className='container mx-auto md:px-14 px-4 mt-8 mb-8'> 
        <div className='grid grid-cols-1 md:grid-cols-2 items-center gap-8'>
@@ -11,14 +51,14 @@ const Query = () => {
         </div>
         <div className='border border-gray-200 p-6 rounded-xl '>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
-                <input type='text' className='col-span-2 md:col-span-1 focus:outline-none w-full   rounded-lg bg-[#eaeaea] p-4' placeholder='Name'/>
+                <input type='text' name="name" className='col-span-2 md:col-span-1 focus:outline-none w-full   rounded-lg bg-[#eaeaea] p-4' placeholder='Name' onChange={handleInputChange}/>
             
-                <input type='number' className='col-span-2 md:col-span-1 focus:outline-none w-full   rounded-lg bg-[#eaeaea] p-4' placeholder='Phone Number'/>
+                <input type='number' name="contact" className='col-span-2 md:col-span-1 focus:outline-none w-full   rounded-lg bg-[#eaeaea] p-4'  placeholder='Phone Number' onChange={handleInputChange}/>
             
-                <input type='email' className='col-span-2 focus:outline-none w-full   rounded-lg bg-[#eaeaea] p-4' placeholder='Email'/>
+                <input type='email' name="email" className='col-span-2 focus:outline-none w-full   rounded-lg bg-[#eaeaea] p-4'  placeholder='Email' onChange={handleInputChange}/>
              
-                <textarea className='col-span-2 focus:outline-none w-full   rounded-lg bg-[#eaeaea] p-4' placeholder='Your Suggestion'/>
-                <button className='col-span-2 bg-green-400 text-xl w-full text-white font-bold  rounded-lg   p-4' >Submit</button>
+                <textarea className='col-span-2 focus:outline-none w-full   rounded-lg bg-[#eaeaea] p-4' name="message"  placeholder='Your Suggestion' onChange={handleInputChange}/>
+                <button className='col-span-2 bg-green-400 text-xl w-full text-white font-bold  rounded-lg   p-4' onClick={handleSubmit}>Submit</button>
             </div>
         </div>
        </div>
