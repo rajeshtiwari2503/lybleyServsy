@@ -78,7 +78,12 @@ const Footer = () => {
             <div className="grid md:grid-cols-4 py-5   rounded-t-xl">
               <div className="py-8 col-span-2 ">
                 <h1 className="flex items-center gap-3 text-xl sm:text-3xl font-bold text-justify sm:text-left">
-                  <Link href={"/"}> <img src={"/Logo.png"} alt="" className="max-h-[64px] rounded-lg" /></Link>
+                  <Link href={"/"}>
+                     {/* <img src={"/Logo.png"} alt="" className="max-h-[64px] rounded-lg" /> */}
+
+                  <div className="bg-black p-4 border border-2-white text-white font-bold tracking-widest rounded-md">SERVSY</div>
+
+                     </Link>
 
                 </h1>
                 {/* <p className="text-sm mt-4">

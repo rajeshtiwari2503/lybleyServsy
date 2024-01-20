@@ -3,10 +3,10 @@ import { FaCheck } from "react-icons/fa6";
 
 const ValueAddedServices = () => {
   return (
-    <div className='px-24 py-16'>
+    <div className='px-4 md:px-24 py-16'>
     <h2 className='text-3xl'>Value Added Services</h2>
     <h3 className='text-2xl'>customised for your business</h3>
-    <p className='mt-8 w-[800px] text-justify'>
+    <p className='mt-8 w-full md:w-[800px] text-justify'>
     Servsy Protection Plans contribute to the growth of your business by guaranteeing customer satisfaction year after year. Offering a wide range of tailored extended warranty programs, these plans provide coverage for up to 3 years for new products. Additionally, for products beyond the initial warranty period, our Annual Maintenance Plans offer ongoing protection, delivering genuine peace of mind to your customers.
     </p>
     <h3 className='font-bold text-gray-500 text-2xl mt-8'>Our Offering</h3>
