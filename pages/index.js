@@ -17,8 +17,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>SERVSY</title>
-        <meta name="description" content="Explore SERVSY for cutting-edge website and app development, robust e-commerce solutions, and impactful digital marketing. Our expertise extends to comprehensive CRM services and strategic social media marketing. Elevate your brand's digital presence with tailored solutions designed for growth and engagement. Partner with us to unlock the full potential of the digital landscape and drive your business forward" />
+        <title>After sale service</title>
+        <meta name="description" content="At Servsy, we take pride in providing comprehensive after-sales services tailored to your specific needs. Whether you're looking for support with home appliances, mobile devices, or furniture, we have you covered. Our commitment to a 'customer-first' approach sets us apart. With a well-established service delivery network and cutting-edge technology, we ensure that your customers receive unparalleled care. Our after-sales services are designed to guarantee satisfaction year after year." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
