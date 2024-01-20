@@ -1,5 +1,8 @@
 import React from 'react'
 import { FaHome, FaCity } from "react-icons/fa";
+import { IoIosCall } from "react-icons/io";
+import { FaUserGroup } from "react-icons/fa6";
+import { BsBuildings } from "react-icons/bs";
 
 const CustomerRelation = () => {
   return (
@@ -11,19 +14,19 @@ const CustomerRelation = () => {
     <div className="mt-5 grid grid-cols-1 md:grid-cols-3 justify-between gap-5 w-full md:w-[800px]">
         <div className="flex flex-col">
         <div className='flex items-center space-x-2'>
-            <FaHome className='text-3xl' /> <div className='text-4xl'>5<sup>+</sup></div>
+            <BsBuildings className='text-3xl' /> <div className='text-4xl'>5<sup>+</sup></div>
         </div>
         <h2 className='text-[20px]'>Call centers</h2>
         </div>
         <div className="flex flex-col">
         <div className='flex items-center space-x-2'>
-            <FaHome className='text-3xl' /> <div className='text-4xl'>400<sup>+</sup></div>
+            <FaUserGroup className='text-3xl' /> <div className='text-4xl'>400<sup>+</sup></div>
         </div>
         <h2 className='text-[20px]'>Executives</h2>
         </div>
         <div className="flex flex-col">
         <div className='flex items-center space-x-2'>
-            <FaHome className='text-3xl' /> <div className='text-4xl'>11,000<sup>+</sup></div>
+            <IoIosCall className='text-3xl' /> <div className='text-4xl'>11,000<sup>+</sup></div>
         </div>
         <h2 className='text-[20px]'>Calls per day</h2>
         </div>

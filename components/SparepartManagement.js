@@ -1,5 +1,8 @@
 import React from 'react'
-import { FaHome, FaCity } from "react-icons/fa";
+import { FaHome, FaCity,FaWarehouse } from "react-icons/fa";
+import { IoMdSettings } from "react-icons/io";
+import { RiStockFill } from "react-icons/ri";
+import { MdLocationCity } from "react-icons/md";
 
 const SparepartManagement = () => {
   return (
@@ -11,25 +14,25 @@ const SparepartManagement = () => {
     <div className="mt-5 grid grid-cols-1 md:grid-cols-4 justify-between gap-5 w-full md:w-[800px]">
         <div className="flex flex-col">
         <div className='flex items-center space-x-2'>
-            <FaHome className='text-3xl' /> <div className='text-4xl'>4</div>
+            <MdLocationCity className='text-3xl' /> <div className='text-4xl'>4</div>
         </div>
         <h2 className='text-[20px]'>Central Warehouses</h2>
         </div>
         <div className="flex flex-col">
         <div className='flex items-center space-x-2'>
-            <FaHome className='text-3xl' /> <div className='text-4xl'>19</div>
+            <FaWarehouse className='text-3xl' /> <div className='text-4xl'>19</div>
         </div>
         <h2 className='text-[20px]'>Branch Warehouses</h2>
         </div>
         <div className="flex flex-col">
         <div className='flex items-center space-x-2'>
-            <FaHome className='text-3xl' /> <div className='text-4xl'>6500<sup>+</sup></div>
+            <IoMdSettings className='text-3xl' /> <div className='text-4xl'>6500<sup>+</sup></div>
         </div>
         <h2 className='text-[20px]'>Spare Parts</h2>
         </div>
         <div className="flex flex-col">
         <div className='flex items-center space-x-2'>
-            <FaHome className='text-3xl' /> <div className='text-4xl'>60<sup>+</sup></div>
+            <RiStockFill className='text-3xl' /> <div className='text-4xl'>60<sup>+</sup></div>
         </div>
         <h2 className='text-[20px]'>Brand Stocks</h2>
         </div>
