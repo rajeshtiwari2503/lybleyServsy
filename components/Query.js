@@ -7,7 +7,8 @@ const Query = () => {
     name: '',
     contact: '',
     email: '',
-    message: ''
+    message: '',
+    website:'Servsy'
   });
 
   const handleInputChange = (event) => {
