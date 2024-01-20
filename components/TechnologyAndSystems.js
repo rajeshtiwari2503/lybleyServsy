@@ -3,10 +3,10 @@ import { FaCheck } from "react-icons/fa6";
 
 const TechnologyAndSystems = () => {
   return (
-    <div className='px-24 py-16'>
+    <div className='px-4 md:px-24 py-16'>
     <h2 className='text-3xl'>Technology & Systems</h2>
     <h3 className='text-2xl'>accentuating service with scale</h3>
-    <p className='mt-8 w-[800px] text-justify'>
+    <p className='mt-8 w-full md:w-[800px] text-justify'>
     Servsy attains operational scale and efficiency through the integration of technology and automation. Our in-house Service Management Suite oversees the entire service lifecycle, starting from registration to on-field completion, customer feedback, and real-time tracking at each stage. All our processes, including the call center, service delivery, inventory management, accounting, and training, are technology-driven, ensuring transparency, reliability, and accountability.
     </p>
     <h3 className='font-bold text-gray-500 text-2xl mt-8'>Our Tech Systems</h3>
