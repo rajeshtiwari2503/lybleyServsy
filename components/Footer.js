@@ -71,7 +71,7 @@ const serviceCenter = [
 const Footer = () => {
   return (
     <>
-      <div className="  mt-10 relative overflow-hidden  ">
+      <div className="relative overflow-hidden">
         <div className="bg-black text-white">
           <div className="container mx-auto md:px-14 px-4">
             {/* <div className="grid md:grid-cols-3 py-5 bg-white/80 backdrop-blur-sm rounded-t-xl"> */}
