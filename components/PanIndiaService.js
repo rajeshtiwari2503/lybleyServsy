@@ -1,5 +1,8 @@
 import React from 'react'
 import { FaHome, FaCity } from "react-icons/fa";
+import { TbMapPinCode } from "react-icons/tb";
+import { IoIosMan } from "react-icons/io";
+import { MdLocationCity } from "react-icons/md";
 
 const PanIndiaService = () => {
   return (
@@ -11,19 +14,19 @@ const PanIndiaService = () => {
     <div className="mt-5 grid grid-cols-1 md:grid-cols-3 justify-between gap-5 w-full md:w-[800px]">
         <div className="flex flex-col">
         <div className='flex items-center space-x-2'>
-            <FaHome className='text-3xl' /> <div className='text-4xl'>18,000<sup>+</sup></div>
+            <TbMapPinCode className='text-3xl' /> <div className='text-4xl'>18,000<sup>+</sup></div>
         </div>
         <h2 className='text-[20px]'>Pin codes</h2>
         </div>
         <div className="flex flex-col">
         <div className='flex items-center space-x-2'>
-            <FaHome className='text-3xl' /> <div className='text-4xl'>6,000<sup>+</sup></div>
+            <IoIosMan className='text-3xl' /> <div className='text-4xl'>6,000<sup>+</sup></div>
         </div>
         <h2 className='text-[20px]'>Technicians</h2>
         </div>
         <div className="flex flex-col">
         <div className='flex items-center space-x-2'>
-            <FaHome className='text-3xl' /> <div className='text-4xl'>1000<sup>+</sup></div>
+            <MdLocationCity className='text-3xl' /> <div className='text-4xl'>1000<sup>+</sup></div>
         </div>
         <h2 className='text-[20px]'>Cities, Towns & Villages</h2>
         </div>
