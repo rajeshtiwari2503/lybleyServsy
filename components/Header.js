@@ -51,16 +51,17 @@ const Header = ({ handleOrderPopup }) => {
         <div className="py-1">
           <div className="container mx-auto md:px-14 px-4 py-3 sm:py-0">
             <div className="flex justify-between items-center">
-              <div className="flex items-center gap-4 py-1 font-bold text-2xl">
+              <div className="flex items-center gap-4 py-1 font-bold text-md md:text-2xl">
                 <Link href={"/"}  >
-                  <img src={"/Logo.png"} alt="" className="h-16 max-w-full rounded-lg" />
+                  {/* <img src={"/Logo.png"} alt="" className="h-16 max-w-full rounded-lg" /> */}
+                  <div className="bg-black p-4 text-center text-white font-bold tracking-widest rounded-md">SERVSY</div>
                 </Link>
-               
+              
               </div>
               
               <div className="flex items-center gap-4">
               <div className=" ">
-                <ul className="flex items-center font-bold gap-6 animatedRight ">
+                <ul className="flex items-center text-md md:text-2xl font-bold gap-6 animatedRight ">
                   
                 <li className="py-4">
                     <Link href=" contact" className={`text-decoration-none ${router.pathname==="/contact" ? "text-blue-400" : "" }`} >
