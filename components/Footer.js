@@ -74,21 +74,17 @@ const Footer = () => {
       <div className="relative overflow-hidden">
         <div className="bg-black text-white">
           <div className="container mx-auto md:px-14 px-4">
-            {/* <div className="grid md:grid-cols-3 py-5 bg-white/80 backdrop-blur-sm rounded-t-xl"> */}
             <div className="grid md:grid-cols-4 py-5   rounded-t-xl">
               <div className="py-8 col-span-2 ">
                 <h1 className="flex items-center gap-3 text-xl sm:text-3xl font-bold text-justify sm:text-left">
                   <Link href={"/"}>
-                     {/* <img src={"/Logo.png"} alt="" className="max-h-[64px] rounded-lg" /> */}
-
+                  
                   <div className="bg-black p-4 border border-2-white text-white font-bold tracking-widest rounded-md">SERVSY</div>
 
                      </Link>
 
                 </h1>
-                {/* <p className="text-sm mt-4">
-                  Discover Lybley for web and app development, e-commerce solutions, CRM services, and impactful digital and social media marketing. Elevate your brand's digital presence with our comprehensive suite of tailored solutions designed to drive growth and engagement.
-                </p> */}
+               
                 <br />
                 <div className="flex items-center gap-3 ">
                   <FaLocationArrow />
@@ -102,7 +98,6 @@ const Footer = () => {
                   <FaMobileAlt />
                   <p>+91 7011071202</p>
                 </div>
-                {/* social handles */}
 
               </div>
               <div className="py-8   ">

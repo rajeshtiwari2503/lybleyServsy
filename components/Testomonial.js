@@ -71,7 +71,6 @@ const Testimonial = () => {
     <>
       <div data-aos="fade-up" data-aos-duration="300" className="py-10 ">
         <div className="container">
-          {/* Header section */}
           <div className="text-center mb-10 max-w-[400px] mx-auto">
             <h1 className="text-4xl font-bold">What our client say.</h1>
             <p className="text-xs text-gray-400 mt-3">
@@ -79,7 +78,7 @@ const Testimonial = () => {
               Our clients express admiration for our transformative solutions, echoing their success stories through our collaborative ventures.
             </p>
           </div>
-          {/* testimonial section */}
+         
           <div
             data-aos="zoom-in"
             data-aos-duration="300"

@@ -4,7 +4,6 @@ import { NavbarLinks } from "./Header";
 import { useRouter } from "next/router";
 
 const ResponsiveHeader = ({ showMenu, setShowMenu }) => {
-  // console.log("showMenu", showMenu);
   const router=useRouter();
    
   return (
