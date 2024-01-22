@@ -10,10 +10,20 @@ import React from 'react'
 import { FaHome, FaCity } from "react-icons/fa";
 import { GiWashingMachine } from "react-icons/gi";
 import { PiPencilLineFill } from "react-icons/pi";
+import Head from 'next/head';
 
 
 const businessSolution = () => {
     return (
+        <>
+        <Head>
+        <title>Partner with Servsy</title>
+        <meta name="description" content="Servsy specializes in delivering personalized services across a diverse range of 30+ products, spanning home appliances, electronics, mobiles, and furniture, covering all regions of India. Our extensive service offerings address the entire product usage lifecycle, encompassing tasks such as product installation, setup, and demonstration, as well as comprehensive repair and refurbishment services for both in-warranty and out-of-warranty products" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap" rel="stylesheet"></link>
+      </Head>
         <div>
             <div className="px-4 md:mb-0">
                 <div className='rounded-[20px] mt-28 md:mt-20 bg-cover bg-center h-[500px]' style={{ backgroundImage: "url(businessSolution.jpg)" }}>
@@ -63,6 +73,7 @@ const businessSolution = () => {
                  <TechnologyAndSystems />
                  <HighlyTrainedPeople />
         </div>
+        </>
     )
 }
 
