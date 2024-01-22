@@ -53,7 +53,6 @@ const Header = ({ handleOrderPopup }) => {
             <div className="flex justify-between items-center">
               <div className="flex items-center gap-4 py-1 font-bold text-md md:text-2xl">
                 <Link href={"/"}  >
-                  {/* <img src={"/Logo.png"} alt="" className="h-16 max-w-full rounded-lg" /> */}
                   <div className="bg-black p-4 text-center text-white font-bold tracking-widest rounded-md">SERVSY</div>
                 </Link>
               
@@ -82,7 +81,7 @@ const Header = ({ handleOrderPopup }) => {
             </div>
           </div>
         </div>
-        {/* <ResponsiveHeader setShowMenu={setShowMenu} showMenu={showMenu} /> */}
+
       </nav>
     </>
   );

@@ -40,14 +40,13 @@ const Query = () => {
         setTimeout(() => {
           setMsg("");
         }, 3000)
-        // Show success message or perform other actions upon successful submission
+        
       } else {
         console.error('Failed to send message');
-        // Handle error scenarios
+    
       }
     } catch (error) {
       console.error('Error sending message:', error);
-      // Handle error scenarios
       setIsLoading(false);
     }
   };
