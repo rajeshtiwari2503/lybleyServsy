@@ -27,6 +27,10 @@ const FooterLinks = [
     title: "Contact us",
     link: "contact",
   },
+  {
+    title: "Login CRM",
+    link: "http://162.240.13.171/~fxnktkmy/servce/",
+  },
 ];
 const serviceCenter = [
   {
@@ -124,10 +128,11 @@ const Footer = () => {
                 </h1>
                 <ul className="flex flex-col gap-3 ">
                   {FooterLinks.map((link, index) => (
-                    <li className="text-white cursor-pointer hover:translate-x-1 duration-300 hover:text-blue-400 space-x-1" key={index}>
+                    <li className={`${link?.title==="Login CRM" ? "text-blue-400" : "text-white"} cursor-pointer hover:translate-x-1 duration-300 hover:text-blue-400 space-x-1`} key={index}>
                       <Link
                         href={link.link}
                         onClick={() => window.scrollTo(0, 0)}
+                        target={link?.title==="Login CRM" ?"_blank" :"_parent"}
                       >
                         <span>&#11162;</span>
                         <span className="ms-2">{link.title}</span>
