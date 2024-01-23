@@ -10,6 +10,7 @@ import Subscription from '@/components/Subscription'
 import OurBrand from '@/components/OurBrand'
 import Query from '@/components/Query'
 import OurService from '@/components/OurService'
+import WhyChoose from '@/components/WhyChoose'
 
 
 
@@ -41,7 +42,7 @@ export default function Home() {
         <OurBrand />
         <Query />
         <Testimonial />
-       
+         <WhyChoose />
       </main>
     </>
   )

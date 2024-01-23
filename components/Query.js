@@ -51,7 +51,7 @@ const Query = () => {
     }
   };
   return (
-    <div className='container mx-auto md:px-14 px-4 mt-8 mb-8'> 
+    <div className='container mx-auto md:px-14 px-4 mt-12 mb-8'> 
        <div className='grid grid-cols-1 md:grid-cols-2 items-center gap-8'>
         <div>
           <div className='text-yellow-400 text-2xl font-bold'>How Can We Assist You?</div>

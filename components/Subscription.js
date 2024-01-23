@@ -14,7 +14,7 @@ const Subscription = () => {
                 </div>
                 </div>
                 <div className='flex justify-center'>
-                    <img src="homeAppliances.png" className='mt-12 md:mt-0 h-[250px] md:h-[400px]' alt="" />
+                    <img src="homeAppliance.png" className='mt-12 md:mt-0 h-[250px] md:h-[400px]' alt="" />
                 </div>
             </div>
         </div>
