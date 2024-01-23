@@ -9,7 +9,7 @@ import Testimonial from '@/components/Testomonial'
 import Subscription from '@/components/Subscription'
 import OurBrand from '@/components/OurBrand'
 import Query from '@/components/Query'
-import OurServices from '@/components/ourServices'
+import OurService from '@/components/OurService'
 
 
 
@@ -36,7 +36,7 @@ export default function Home() {
         <HomePage />
         <HomeSolution />
         <Subscription />
-        <OurServices/>
+        <OurService />
         <BussinessSolution />
         <OurBrand />
         <Query />
