@@ -9,6 +9,10 @@ import Testimonial from '@/components/Testomonial'
 import Subscription from '@/components/Subscription'
 import OurBrand from '@/components/OurBrand'
 import Query from '@/components/Query'
+import OurService from '@/components/OurService'
+
+
+
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -32,6 +36,7 @@ export default function Home() {
         <HomePage />
         <HomeSolution />
         <Subscription />
+        <OurService />
         <BussinessSolution />
         <OurBrand />
         <Query />
