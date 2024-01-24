@@ -2,8 +2,8 @@ import React from 'react'
 
 const WhyChoose = () => {
   return (
-    <div className="container px-14 py-4">
-       <h2 className='text-4xl text-center font-bold'>Why Choose Servsy?</h2>
+    <div className="container px-4 md:px-14 py-4">
+       <h2 className='text-2xl md:text-4xl text-center font-bold'>Why Choose Servsy?</h2>
       <div className='mt-2'> <span className='font-bold'>Pan-India Reach: </span>With 600 service centers, Servsy is your local after-sales service provider wherever you are in India.
       </div>
 <div className='mt-2'><span className='font-bold'> Expert Technicians:</span> Our skilled technicians are trained to handle a spectrum of home appliances, providing reliable solutions.
