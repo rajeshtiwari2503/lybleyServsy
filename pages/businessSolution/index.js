@@ -34,7 +34,7 @@ const businessSolution = () => {
                             <div className="grid grid-cols-2 gap-2 md:grid-cols-4 mt-6 px-4 md:px-24">
                                 <div className='bg-white/50 p-2 md:p-4 rounded-[20px] shadow-md'>
                                     <div className='text-xl md:text-3xl font-bold flex items-center'>
-                                        <FaHome className='text-xl md:text-3xl' /> <span className='ms-2 md:ms-4 font-bold text-sm md:text-3xl'>3 Million<sup>+</sup> </span>
+                                        <FaHome className='text-xl md:text-3xl' /> <span className='ms-2 md:ms-4 font-bold text-sm md:text-3xl'>3 Lakh<sup>+</sup> </span>
                                     </div>
                                     <div className='font-bold text-sm md:text-2xl md:mt-0 mt-2'> Happy Customers</div>
                                 </div>
@@ -52,7 +52,7 @@ const businessSolution = () => {
                                 </div>
                                 <div className='bg-white/50 p-2 md:p-4 rounded-[20px] shadow-md'>
                                     <div className='text-xl md:text-3xl font-bold flex items-center'>
-                                        <PiPencilLineFill /><span className='ms-2 md:ms-4 font-bold text-sm md:text-3xl'>30<sup>+</sup></span>
+                                        <PiPencilLineFill /><span className='ms-2 md:ms-4 font-bold text-sm md:text-3xl'>10<sup>+</sup></span>
                                     </div>
                                     <div className='font-bold text-sm md:text-2xl md:mt-0 mt-2'>  Brand Partners</div>
                                 </div>

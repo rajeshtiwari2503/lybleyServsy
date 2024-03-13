@@ -12,19 +12,19 @@ const HighlyTrainedPeople = () => {
     <div className="mt-5 grid grid-cols-1 md:grid-cols-3 justify-between gap-5 w-full md:w-[800px]">
         <div className="flex flex-col">
         <div className='flex items-center space-x-2'>
-            <GiWashingMachine className='text-3xl' /> <div className='text-4xl'>14<sup>+</sup></div>
+            <GiWashingMachine className='text-3xl' /> <div className='text-4xl'>5<sup>+</sup></div>
         </div>
         <h2 className='text-[20px]'>Training Teams</h2>
         </div>
         <div className="flex flex-col">
         <div className='flex items-center space-x-2'>
-            <FaHome className='text-3xl' /> <div className='text-4xl'>16<sup>+</sup></div>
+            <FaHome className='text-3xl' /> <div className='text-4xl'>1<sup>+</sup></div>
         </div>
         <h2 className='text-[20px]'>Training Centers</h2>
         </div>
         <div className="flex flex-col">
         <div className='flex items-center space-x-2'>
-            <FaCity className='text-3xl' /> <div className='text-4xl'>25,000<sup>+</sup></div>
+            <FaCity className='text-3xl' /> <div className='text-4xl'>2000<sup>+</sup></div>
         </div>
         <h2 className='text-[20px]'>Poeple trained annually</h2>
         </div>
