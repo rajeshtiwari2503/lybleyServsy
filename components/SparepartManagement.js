@@ -14,25 +14,25 @@ const SparepartManagement = () => {
     <div className="mt-5 grid grid-cols-1 md:grid-cols-4 justify-between gap-5 w-full md:w-[800px]">
         <div className="flex flex-col">
         <div className='flex items-center space-x-2'>
-            <MdLocationCity className='text-3xl' /> <div className='text-4xl'>4</div>
+            <MdLocationCity className='text-3xl' /> <div className='text-4xl'>1</div>
         </div>
         <h2 className='text-[20px]'>Central Warehouses</h2>
         </div>
         <div className="flex flex-col">
         <div className='flex items-center space-x-2'>
-            <FaWarehouse className='text-3xl' /> <div className='text-4xl'>19</div>
+            <FaWarehouse className='text-3xl' /> <div className='text-4xl'>3</div>
         </div>
         <h2 className='text-[20px]'>Branch Warehouses</h2>
         </div>
         <div className="flex flex-col">
         <div className='flex items-center space-x-2'>
-            <IoMdSettings className='text-3xl' /> <div className='text-4xl'>6500<sup>+</sup></div>
+            <IoMdSettings className='text-3xl' /> <div className='text-4xl'>1000<sup>+</sup></div>
         </div>
         <h2 className='text-[20px]'>Spare Parts</h2>
         </div>
         <div className="flex flex-col">
         <div className='flex items-center space-x-2'>
-            <RiStockFill className='text-3xl' /> <div className='text-4xl'>60<sup>+</sup></div>
+            <RiStockFill className='text-3xl' /> <div className='text-4xl'>10<sup>+</sup></div>
         </div>
         <h2 className='text-[20px]'>Brand Stocks</h2>
         </div>

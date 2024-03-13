@@ -19,7 +19,7 @@ const HomePage = () => {
                             <div className="grid grid-cols-1 gap-4 md:grid-cols-2 mt-7">
                                 <div className='bg-white/50 p-4 rounded-[20px] shadow-md'>
                                     <div className='text-3xl font-bold flex items-center'>
-                                        <FaHome className='text-3xl' /> <span className='ms-4'>3 Million<sup>+</sup> </span>
+                                        <FaHome className='text-3xl' /> <span className='ms-4'>4 Lakh<sup>+</sup> </span>
                                     </div>
                                     <div className='font-bold text-2xl'> Happy Customers</div>
                                 </div>
@@ -40,7 +40,7 @@ const HomePage = () => {
 
                                 <div className='bg-white/50 p-4 rounded-[20px] shadow-md'>
                                     <div className='text-3xl font-bold flex items-center'>
-                                        <PiPencilLineFill /><span className='ms-4'>30<sup>+</sup></span>
+                                        <PiPencilLineFill /><span className='ms-4'>10<sup>+</sup></span>
                                     </div>
                                     <div className='font-bold text-2xl'>  Brand Partners</div>
                                 </div>

@@ -9,7 +9,7 @@ const ComprehensiveService = () => {
         <h3 className='font-bold text-gray-500 text-2xl mt-8'>Services Offered</h3>
         <div className="mt-5 grid grid-cols-1 md:grid-cols-6 justify-between gap-5 w-full md:w-[800px]">
             <div className="flex flex-col justify-center items-center">
-            <img src="wrench.png" className='h-[70px]' alt="" />
+            <img src="easy-installation.png" className='h-[70px]' alt="" />
             <h2 className='text-[20px] text-center'>Installation & Demo</h2>
             </div>
             <div className="flex flex-col justify-center items-center">
@@ -17,19 +17,19 @@ const ComprehensiveService = () => {
             <h2 className='text-[20px] text-center'>Returns Management</h2>
             </div>
             <div className="flex flex-col justify-center items-center">
-            <img src="wrench.png" className='h-[70px]' alt="" />
+            <img src="wrench1.png" className='h-[70px]' alt="" />
             <h2 className='text-[20px] text-center'>Repair & Refurbish</h2>
             </div>
             <div className="flex flex-col justify-center items-center">
-            <img src="wrench.png" className='h-[70px]' alt="" />
+            <img src="sparepart.png" className='h-[70px]' alt="" />
             <h2 className='text-[20px] text-center'>Spare Parts Management</h2>
             </div>
             <div className="flex flex-col justify-center items-center">
-            <img src="wrench.png" className='h-[70px]' alt="" />
+            <img src="customerFeedback.png" className='h-[70px]' alt="" />
             <h2 className='text-[20px] text-center'>Customer Relations</h2>
             </div>
             <div className="flex flex-col justify-center items-center">
-            <img src="wrench.png" className='h-[70px]' alt="" />
+            <img src="qualityTesting.png" className='h-[70px]' alt="" />
             <h2 className='text-[20px] text-center'>Testing & Certification</h2>
             </div>
         </div>

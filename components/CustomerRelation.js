@@ -14,19 +14,19 @@ const CustomerRelation = () => {
     <div className="mt-5 grid grid-cols-1 md:grid-cols-3 justify-between gap-5 w-full md:w-[800px]">
         <div className="flex flex-col">
         <div className='flex items-center space-x-2'>
-            <BsBuildings className='text-3xl' /> <div className='text-4xl'>5<sup>+</sup></div>
+            <BsBuildings className='text-3xl' /> <div className='text-4xl'>1<sup>+</sup></div>
         </div>
         <h2 className='text-[20px]'>Call centers</h2>
         </div>
         <div className="flex flex-col">
         <div className='flex items-center space-x-2'>
-            <FaUserGroup className='text-3xl' /> <div className='text-4xl'>400<sup>+</sup></div>
+            <FaUserGroup className='text-3xl' /> <div className='text-4xl'>120<sup>+</sup></div>
         </div>
         <h2 className='text-[20px]'>Executives</h2>
         </div>
         <div className="flex flex-col">
         <div className='flex items-center space-x-2'>
-            <IoIosCall className='text-3xl' /> <div className='text-4xl'>11,000<sup>+</sup></div>
+            <IoIosCall className='text-3xl' /> <div className='text-4xl'>1000<sup>+</sup></div>
         </div>
         <h2 className='text-[20px]'>Calls per day</h2>
         </div>
