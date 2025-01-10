@@ -96,7 +96,7 @@ const Footer = () => {
                 </div>
                 <div className="flex items-center gap-3 mt-3">
                   <FaEnvelope />
-                  <p>help@lybley.com</p>
+                  <p>Servsy.india@gmail.com</p>
                 </div>
                 <div className="flex items-center gap-3 mt-3">
                   <FaMobileAlt />
